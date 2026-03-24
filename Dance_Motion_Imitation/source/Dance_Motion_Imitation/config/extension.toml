@@ -1,0 +1,24 @@
+[package]
+
+# Semantic Versioning is used: https://semver.org/
+version = "1.0.0"
+
+# Description
+category = "isaaclab"
+readme  = "README.md"
+
+title = "H1 Dance Motion Imitation"
+author = "Marcelino Fernando"
+maintainer = "Marcelino Fernando"
+description="Reinforcement learning policy for Unitree H1 humanoid dance motion imitation in NVIDIA Isaac Lab"
+repository = "https://github.com/TheMarcRNeo98/Dance_Motion_Imitation.git"
+keywords = ["humanoid", "dance", "motion-imitation", "reinforcement-learning", "isaaclab", "unitree-h1"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_assets" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[[python.module]]
+name = "Dance_Motion_Imitation"
