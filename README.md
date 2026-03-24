@@ -1,6 +1,10 @@
 # Humanoid Dance Motion Imitation via Reinforcement Learning
 
 <p align="center">
+  <img src="docs/assets/h1_dance_demo.gif" width="600" alt="H1 robot dancing">
+</p>
+
+<p align="center">
   <img src="docs/assets/all_metrics.png" width="100%" alt="Policy evaluation dashboard showing 50-second dance tracking">
 </p>
 
