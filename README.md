@@ -4,10 +4,6 @@
   <img src="docs/assets/h1_dance_demo.gif" width="600" alt="H1 robot dancing">
 </p>
 
-<p align="center">
-  <img src="docs/assets/all_metrics.png" width="100%" alt="Policy evaluation dashboard showing 50-second dance tracking">
-</p>
-
 A reinforcement learning system that trains a **Unitree H1 humanoid robot** to physically imitate a 50-second dance motion clip in simulation. The policy controls 19 joints through residual position commands while maintaining balance entirely through learned physics—no root forcing, no motion replay.
 
 Built on [NVIDIA Isaac Lab](https://github.com/isaac-sim/IsaacLab) and [skrl](https://github.com/Toni-SM/skrl).
