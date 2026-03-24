@@ -200,7 +200,7 @@ Dance_Motion_Imitation/                         # OUTER project root
 
 ```bash
 # Clone the repository
-git clone https://github.com/<YOUR_USERNAME>/Dance_Motion_Imitation.git
+git clone https://github.com/TheMarcRNeo98/Dance_Motion_Imitation.git
 cd Dance_Motion_Imitation
 
 # Ensure IsaacLab is installed and activated
@@ -244,7 +244,7 @@ All commands are run from the IsaacLab root directory (`~/IsaacLab`).
 
 **Visual playback:**
 ```bash
-./isaaclab.sh -p <path>/scripts/skrl/log_policy_rollout.py \
+./isaaclab.sh -p <path>/scripts/skrl/play.py \
     --task Isaac-H1-Dance-AMP-Direct-v0 \
     --algorithm AMP \
     --max_steps 1500
